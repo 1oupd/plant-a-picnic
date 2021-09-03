@@ -17,9 +17,6 @@ body {
     display: flex;
     justify-content: space-between;
     height: 100px;
-    /* border-style: solid;
-    border-color: rgb(84, 107, 91);
-    background-color: #cbdbb5dc; */
     border-color:teal;
     border-radius: 10px;
    
@@ -45,7 +42,7 @@ p {
     font-family: 'poppins', 'Courier New', Courier, monospace;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h4 {
     font-family: 'Magra', 'Courier New', Courier, monospace;
 }
 
@@ -89,11 +86,11 @@ h1 h2 h3 h4 h5 h6 {
     
 }
 
-.contact_form {
+.login_form {
     display: flex;
     justify-content: center;
     width: 400px;
-    height: 200px;
+    height: 300px;
     padding: 25px 100px 100px 100px;
     margin: 2.5% 10% 10% 26%;
     background-color:rgb(219, 218, 218);
@@ -103,4 +100,39 @@ h1 h2 h3 h4 h5 h6 {
     border-width: 2px;
     border-color: rgb(58, 104, 104);
     border-radius: 25px;
+}
+
+.contact {
+    margin-left: 60px;
+}
+
+
+
+.footer {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(102, 129, 110);
+    color: white;
+    text-align: center;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+.footer_left {
+    text-align: left;
+    margin: 20px;
+
+}
+
+.footer_right {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.footer, a {
+    text-decoration: none;
+    margin-bottom: 10px;
 }
