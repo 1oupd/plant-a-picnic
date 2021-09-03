@@ -1,39 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
 /* Nav bar */
+
 body {
-    background-image: url("/images/forest2_2.jpg");
+    background-image: url("/images/forest1_cropped.jpg");
     background-size:auto;
     background-repeat: no-repeat;
+    
 }
 
 
 
 .nav_bar {
-    
+
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-style: dotted;
-    border: 1%;
-    border-color: rgb(84, 107, 91);
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+    height: 70px;
+    /* border-style: solid;
+    border-color: rgb(84, 107, 91);
+    background-color: #cbdbb5dc; */
+    border-color:teal;
+    border-radius: 10px;
+   
     
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(26, 26, 25);
+  } 
+  a:visited {
+    color: rgb(26, 26, 25);
+}
+a:hover {
+    color:#5133fd;
+}
+h4:hover {
+    color:#ff9634;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Magra', 'Courier New', Courier, monospace;
 }
 
 .logo {
-
+    height: 50px;
+    padding-right: 0px 500px 0px 10px;
+    margin-top: -25px;
 }
 
 .links {
-
+    font-family: 'magra';
+    font-size: 20px;
+    word-spacing: 25px;
+    padding: 15px 25px 0px 25px;
+    color: rgb(26, 26, 25);
+    
 }
 
 .banner1 {
+    
+    height: 80px;
+    width: 450px;
+    font-size: 25px;
+    color: #123c1f;
+    word-spacing: 5px;
+    opacity: 90%;
+    
+}
+
+.logo_text {
+    font-family: 'magra', 'Courier New', Courier, monospace;
+    margin-top:10px;
 
 }
 
-.basket {
 
+/* content */
+.content {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    padding: 30px 10px 10px 10px;
+   
+}
+/* home left  */
+.home_left {
+    width: 800px;
+    height: 250px;
+    margin: 10px 10px 10px 15px;
+    background-color:rgb(219, 218, 218);
+    opacity: 90%;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    padding: 10px 20px 10px 10px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: teal;
+    border-radius: 25px;
+}
+
+.home_right {
+    width: 800px;
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+    background-color:rgb(219, 218, 218);
+    opacity: 90%;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    padding: 10px 10px 10px 20px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: teal;
+    border-radius: 25px;
 }
