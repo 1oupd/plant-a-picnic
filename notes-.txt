@@ -1,0 +1,15 @@
+- a website to buy everything u need for a picnic
+
+- plant a tree for every item ordered
+
+vvvvvvvvvvvvvv
+
+https://digitalhumani.com/ - plant a tree API
+
+- ANSWER QUESTIONS
+
+side bar for profile
+
+- leafy background on every page
+- divs have translucent bg and rounded soft borders ( white ?)
+- scrollbar! 

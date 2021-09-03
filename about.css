@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap'); 
+
+
+
+/* Nav bar */
+body {
+    background-image: url("/images/forest2_2.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+
+
+.nav_bar {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-style: dotted;
+    border: 1%;
+    border-color: rgb(84, 107, 91);
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.logo {
+
+}
+
+.links {
+
+}
+
+.banner1 {
+
+}
+
+.basket {
+
+}
+
+/* Nav bar */
