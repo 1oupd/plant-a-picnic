@@ -96,12 +96,21 @@ h1 h2 h3 h4 h5 h6 {
     
 
 }
+
+.img1 {
+    max-width: 250px;
+    max-height: 250px;
+
+}
+
+
 .abt_text {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    justify-content:center;
     width: 400px;
-    height: 200px;
-    padding: 25px 25px 2px 27px;
+    height: 500px;
+    padding: 25px 2px 2px 140px;
     margin: 50px 25px 250px 390px;
     background-color:rgb(219, 218, 218);
     opacity: 80%;
