@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap'); 
 
 
-
-/* Nav bar */
-/* Nav bar */
-
 body {
     background-image: url("/images/forest1_cropped.jpg");
     background-size:auto;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     
 }
@@ -37,7 +34,7 @@ a:link {
     color: rgb(26, 26, 25);
 }
 a:hover {
-    color:#5133fd;
+    color:#ff9634;;
 }
 h4:hover {
     color:#ff9634;
@@ -120,6 +117,8 @@ h1 h2 h3 h4 h5 h6 {
     border-color: rgb(58, 104, 104);
     border-radius: 25px;
 }
+
+
 
 .footer {
     position:relative;

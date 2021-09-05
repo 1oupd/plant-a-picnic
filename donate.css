@@ -6,6 +6,7 @@ body {
     background-image: url("/images/forest1_cropped.jpg");
     background-size:auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 
@@ -34,7 +35,7 @@ a:link {
     color: rgb(26, 26, 25);
 }
 a:hover {
-    color:#5133fd;
+    color:#ff9634;;
 }
 .banner1:hover {
     color:#ff9634;
@@ -48,6 +49,8 @@ p {
 h1 h2 h3 h4 h5 h6 {
     font-family: 'Magra', 'Courier New', Courier, monospace;
 }
+
+
 
 .logo {
     height: 50px;
@@ -90,8 +93,10 @@ h1 h2 h3 h4 h5 h6 {
 
 .wyh {
     font-size: 20px;
-    line-height: 40px;
+    line-height: 35px;
     color:rgb(31, 27, 26);
+    margin: 15px 0px 0px 10px;
+
 }
 
 
@@ -113,6 +118,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .donate_2 {
+    display: flex;
     width: 400px;
     height: 250px;
     margin: 10px 10px 10px 420px;
@@ -124,6 +130,11 @@ h1 h2 h3 h4 h5 h6 {
     border-width: 2px;
     border-color: teal;
     border-radius: 25px;
+}
+
+.tftf {
+    width: 100px;
+    margin: 0px 0px 300px 0px;
 }
 
 .footer {

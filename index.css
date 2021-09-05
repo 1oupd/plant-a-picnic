@@ -6,7 +6,8 @@
 body {
     background-image: url("/images/forest1_cropped.jpg");
     background-size:auto;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
     
 }
 
@@ -33,7 +34,7 @@ a:link {
     color: rgb(26, 26, 25);
 }
 a:hover {
-    color:#5133fd;
+    color:#ff9634;
 }
 .banner1:hover {
     color:#ff9634;
@@ -80,16 +81,19 @@ h1 h2 h3 h4 h5 h6 {
 
 }
 
-
-/* content */
+.img_text {
+    display: flex;
+    flex-wrap:wrap;
+}
 
 
 
 .content {
     display: flex;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 30px 10px 10px 10px;
    
 }
@@ -97,13 +101,16 @@ h1 h2 h3 h4 h5 h6 {
 
 /* home left  */
 
-.home_left_text {
+.left_text1 {
     font-family: 'magra', 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: right;
-    margin: -12.5px 7.5px 0px 0px;
+    margin: -10px 17.5px 0px 0px;
 }
 
+.left_text2 {
+   margin: -30px 10px 0px 150px;
+}
 
 .home_left {
     width: 700px;
@@ -122,7 +129,7 @@ h1 h2 h3 h4 h5 h6 {
 .forest2 {
     width: 240px;
     height: 280px;  
-    margin: -50px 10px 5px 0px;
+    margin: -110px 10px 5px 0px;
     border-radius: 15px;
     border-style:outset;
     border-color: rgba(153, 205, 50, 0.767);
@@ -150,6 +157,41 @@ h1 h2 h3 h4 h5 h6 {
     border-width: 2px;
     border-color: teal;
     border-radius: 25px;
+}
+
+
+
+.bundle_1 {
+    width: 150px;
+    height: 230px;
+    margin: 10px 30px 100px 10px;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    padding: 10px 40px 10px 40px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: teal;
+    border-radius: 25px;
+}
+
+.bundle_2 {
+    width: 150px;
+    height: 230px;
+    margin: 10px 30px 100px 10px;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+    padding: 10px 40px 10px 40px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: teal;
+    border-radius: 25px;
+}
+
+.bundleimg1 {
+    height: 120px;
+}
+
+
+.bundleimg2 {
+    height: 120px;
 }
 
 

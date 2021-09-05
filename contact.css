@@ -5,6 +5,7 @@
 body {
     background-image: url("/images/forest1_cropped.jpg");
     background-size:auto;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     
 }
@@ -31,7 +32,7 @@ a:link {
     color: rgb(26, 26, 25);
 }
 a:hover {
-    color:#5133fd;
+    color:#ff9634;;
 }
 .banner1:hover {
     color:#ff9634;
