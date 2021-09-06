@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: url("../images/forest1_cropped.jpg");
+    background-image: url(images/forest1_cropped.jpg);
     background-size:auto;
     background-attachment: fixed;
     background-repeat:no-repeat;
@@ -17,9 +17,6 @@ body {
     display: flex;
     justify-content: space-between;
     height: 70px;
-    /* border-style: solid;
-    border-color: rgb(84, 107, 91);
-    background-color: #cbdbb5dc; */
     border-color:teal;
     border-radius: 10px;
    
