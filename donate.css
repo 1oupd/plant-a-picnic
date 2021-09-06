@@ -46,7 +46,7 @@ p {
     font-family: 'poppins', 'Courier New', Courier, monospace;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Magra', 'Courier New', Courier, monospace;
 }
 
@@ -84,6 +84,19 @@ h1 h2 h3 h4 h5 h6 {
 
 }
 
+.gtimg {
+    width: 150px;
+    margin-left: -10px;
+}
+
+.tftfimg {
+    width: 150px;
+}
+
+.ncimg {
+    width: 150px;
+}
+
 
 .content1 {
     
@@ -100,8 +113,9 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 
+
 .donate_1 {
-    width: 400px;
+    width: 600px;
     height: 150px;
     display: flex;
     line-height: 30px;
@@ -110,7 +124,7 @@ h1 h2 h3 h4 h5 h6 {
     background-color:rgb(219, 218, 218);
     opacity: 90%;
     font-family: 'poppins', 'Courier New', Courier, monospace;
-    padding: 10px 20px 40px 20px;
+    padding: 10px 20px 10px 20px;
     border-style:solid;
     border-width: 2px;
     border-color: teal;
@@ -119,8 +133,8 @@ h1 h2 h3 h4 h5 h6 {
 
 .donate_2 {
     display: flex;
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 600px;
     margin: 10px 10px 10px 420px;
     background-color:rgb(219, 218, 218);
     opacity: 90%;
@@ -131,6 +145,19 @@ h1 h2 h3 h4 h5 h6 {
     border-color: teal;
     border-radius: 25px;
 }
+
+.charity1 {
+    margin: 0px 10px 0px 10px;
+}
+
+.charity2 {
+    margin: 0px 10px 0px 10px;
+}
+
+.charity3 {
+    margin: 0px 10px 0px 10px;
+}
+
 
 .tftf {
     width: 100px;
