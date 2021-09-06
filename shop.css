@@ -4,7 +4,7 @@
 /* Nav bar */
 
 body {
-    background-image: url("/images/forest1_cropped.jpg");
+    background-image: url("../images/forest1_cropped.jpg");
     background-attachment: fixed;
     background-size:auto;
     background-repeat: no-repeat;

@@ -3,7 +3,7 @@
 /* Nav bar */
 
 body {
-    background-image: url("/images/forest1_cropped.jpg");
+    background-image: url("../images/forest1_cropped.jpg");
     background-size:auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
